@@ -1,3 +1,5 @@
+#Colgan Miller project code
+
 def encode(code):
     string = ''
     for i in code:
@@ -21,4 +23,5 @@ def main():
         option = input("Choose an option: ")
         print("1. encode")
         print("2. decode")
+
 

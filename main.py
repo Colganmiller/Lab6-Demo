@@ -12,7 +12,15 @@ def encode(code):
 
     return string
 
-
+def decode(encoded_code):
+    string = ""
+    for i in encoded_code:
+        j = int(i) - 3
+        if j < 0:
+            j = str(j)
+            j = j[1]
+        string += str(j)
+    return string
 
 
 

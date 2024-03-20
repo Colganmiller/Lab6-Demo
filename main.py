@@ -5,8 +5,8 @@ def encode(code):
     for i in code:
         j = int(i)+3
         if j >= 10:
+            j = j - 10
             j = str(j)
-            j = j[1]
 
         string += str(j)
 

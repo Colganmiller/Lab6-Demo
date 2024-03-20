@@ -41,7 +41,8 @@ def main():
             encode_num = encode(password)
         elif option == 2:
             encode_num = encode(password)
-            print(f"The encoded password is {encode_num}, and the original password is {password}.")
+            decode_num = decode(encode_num)
+            print(f"The encoded password is {encode_num}, and the original password is {decode_num}.")
         elif option == 3:
             break
 
